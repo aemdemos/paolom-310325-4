@@ -9,13 +9,13 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "SITEMAPS",
+    "strategy": "crawl",
     "logger": {}
   },
   "extractionErrors": [
     {
-      "url": "https://www.cathayholdings.com/sitemap.xml",
-      "status": "parseSitemapFromUrl (https://www.cathayholdings.com/sitemap.xml): Failed to fetch or parse the sitemap. Failed to fetch the sitemap. fetch failed"
+      "url": "https://www.cathayholdings.com/",
+      "status": "fetch failed"
     }
   ]
 }
